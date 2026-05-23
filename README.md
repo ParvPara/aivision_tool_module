@@ -1,4 +1,4 @@
-# Vision Bridge Module 📸➡️🤖
+# Vision Bridge Module
 
 A robust, highly performant, plug-and-play middleware that abstracts camera hardware, image transformations, and Vision-Language Model (VLM) inferences into a background processing pipeline. 
 
@@ -23,7 +23,7 @@ By running frame capture and VLM analysis on background threads, **Vision Bridge
 
 ---
 
-## Installation 📦
+## Installation
 
 1. Clone this repository to your project directory.
 2. Install the required dependencies:
@@ -52,7 +52,7 @@ for event in vision_layer.get_events():
 
 ---
 
-## Architecture Blueprint 📐
+## Architecture Blueprint
 
 ```mermaid
 flowchart TD
@@ -83,7 +83,7 @@ flowchart TD
 
 ---
 
-## Interactive Examples 💻
+## Interactive Examples
 
 Run any of the ready-made examples in the `examples/` directory:
 
@@ -107,7 +107,7 @@ python examples/main_observer.py
 
 ---
 
-## API Reference 📖
+## API Reference
 
 ### `VisionBridgeModule` Initializer
 ```python
@@ -132,7 +132,7 @@ Every event generated contains rich metadata properties:
 
 ---
 
-## Verification and Unit Tests 🧪
+## Verification and Unit Tests
 
 To verify the installation and run our robust mock test suite, execute:
 ```bash
